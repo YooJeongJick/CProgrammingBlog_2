@@ -1,7 +1,7 @@
 #pragma once
 
-void allocInteger();
-void setInteger();
-void printInteger();
-void setInteger();
+void allocInt(int** p1);
+void setInt(int* p2, int data);
+void printInt(int* p3);
+void freeInt(int* p4);
 
